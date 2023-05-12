@@ -2,8 +2,14 @@
 Here a chatbot is devoloped using gpt3, The repo includes the jasonl file that consists the format on which the data was fed in
 install openai
 while True:
+
+
   prompt1=input("ME: ")
+  
+  
   openai.api_key = ("Enter your own OpenAI API")
+  
+  
   response = openai.Completion.create(
     model="curie:ft-personal-2023-03-17-11-35-41",
     prompt=prompt1,
