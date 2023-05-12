@@ -19,4 +19,6 @@ while True:
     frequency_penalty=0,
     presence_penalty=0
     )
+  
+  
   print("BOT: ",response['choices'][0]['text'])
